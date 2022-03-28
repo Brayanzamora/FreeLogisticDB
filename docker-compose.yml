@@ -1,0 +1,17 @@
+version: "3"
+services:
+  db:
+    container_name: titi_db
+    image: "postgres:13-alpine"
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+      - POSTGRES_DB=${DB_NAME}
+    ports:
+      - 5432:5432
+volumes:
+  db-data:
+    driver: local

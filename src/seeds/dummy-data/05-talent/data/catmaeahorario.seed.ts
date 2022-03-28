@@ -1,0 +1,105 @@
+import { Horario } from '../../../../entities/05-talent/catmaehorario.entity';
+export const HORARIOS: Horario[] = [
+  {
+    id: 1,
+    inicio: '05:00:00',
+    fin: '17:00:00',
+    flag: true,
+  },
+  {
+    id: 2,
+    inicio: '05:30:00',
+    fin: '17:30:00',
+    flag: true,
+  },
+  {
+    id: 3,
+    inicio: '06:00:00',
+    fin: '15:00:00',
+    flag: true,
+  },
+  {
+    id: 4,
+    inicio: '06:00:00',
+    fin: '18:00:00',
+    flag: true,
+  },
+  {
+    id: 5,
+    inicio: '06:30:00',
+    fin: '15:30:00',
+    flag: true,
+  },
+  {
+    id: 6,
+    inicio: '06:30:00',
+    fin: '18:30:00',
+    flag: true,
+  },
+  {
+    id: 7,
+    inicio: '07:00:00',
+    fin: '19:00:00',
+    flag: true,
+  },
+  {
+    id: 8,
+    inicio: '07:00:00',
+    fin: '16:00:00',
+    flag: true,
+  },
+  {
+    id: 9,
+    inicio: '07:30:00',
+    fin: '16:30:00',
+    flag: true,
+  },
+  {
+    id: 10,
+    inicio: '07:30:00',
+    fin: '19:30:00',
+    flag: true,
+  },
+  {
+    id: 11,
+    inicio: '08:00:00',
+    fin: '20:00:00',
+    flag: true,
+  },
+  {
+    id: 12,
+    inicio: '08:00:00',
+    fin: '19:00:00',
+    flag: true,
+  },
+  {
+    id: 13,
+    inicio: '08:00:00',
+    fin: '17:00:00',
+    flag: true,
+  },
+  {
+    id: 14,
+    inicio: '08:30:00',
+    fin: '20:30:00',
+    flag: true,
+  },
+  {
+    id: 15,
+    inicio: '08:30:00',
+    fin: '17:30:00',
+    flag: true,
+  },
+  {
+    id: 16,
+    inicio: '09:00:00',
+    fin: '18:00:00',
+    flag: true,
+  },
+  {
+    id: 17,
+    inicio: '00:00:00',
+    fin: '00:00:00',
+    flag: true,
+  },
+];
